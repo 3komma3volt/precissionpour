@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ui_functions.h": "c",
+        "ui_events.h": "c",
+        "atomic": "cpp",
+        "cstdint": "cpp"
+    }
+}

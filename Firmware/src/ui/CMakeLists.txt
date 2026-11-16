@@ -1,0 +1,25 @@
+SET(SOURCES ui_screenSpash.c
+    ui_screenGameMode.c
+    ui_screenDarts.c
+    ui_screenSettings.c
+    ui_screenWinner.c
+    ui_screenTarget.c
+    ui_screenTargetSettings.c
+    ui_screenTargetWinner.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    ui_img_pplog_png.c
+    ui_img_cog1_png.c
+    ui_img_path128_png.c
+    ui_img_clock_png.c
+    ui_img_arrowsm_png.c
+    ui_img_cross_png.c
+    ui_img_winner_png.c
+    ui_img_arrow_png.c
+    ui_img_ellipse1_png.c
+    ui_img_target_png.c
+    ui_img_tick_png.c)
+
+add_library(ui ${SOURCES})
